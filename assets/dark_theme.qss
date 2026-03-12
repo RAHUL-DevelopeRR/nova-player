@@ -1,0 +1,109 @@
+/* Nova Player — Dark Theme */
+
+QWidget {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #0f0f1a;
+}
+
+QMenuBar {
+    background-color: #16213e;
+    color: #e0e0e0;
+    padding: 2px;
+}
+QMenuBar::item:selected {
+    background-color: #0f3460;
+    border-radius: 4px;
+}
+QMenu {
+    background-color: #16213e;
+    border: 1px solid #0f3460;
+}
+QMenu::item:selected {
+    background-color: #0f3460;
+}
+
+#controlsBar {
+    background-color: #16213e;
+    border-top: 1px solid #0f3460;
+}
+
+QPushButton {
+    background-color: #0f3460;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #e94560;
+}
+QPushButton:pressed {
+    background-color: #c73652;
+}
+
+QSlider::groove:horizontal {
+    height: 4px;
+    background: #0f3460;
+    border-radius: 2px;
+}
+QSlider::handle:horizontal {
+    background: #e94560;
+    width: 14px;
+    height: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+}
+QSlider::sub-page:horizontal {
+    background: #e94560;
+    border-radius: 2px;
+}
+
+#seekSlider {
+    margin: 0;
+    padding: 0 2px;
+}
+
+QLabel {
+    color: #e0e0e0;
+}
+
+QStatusBar {
+    background-color: #0f0f1a;
+    color: #a0a0b0;
+    border-top: 1px solid #0f3460;
+    font-size: 12px;
+}
+
+QComboBox {
+    background-color: #0f3460;
+    color: #e0e0e0;
+    border: 1px solid #e94560;
+    border-radius: 4px;
+    padding: 4px 8px;
+    min-width: 80px;
+}
+QComboBox::drop-down {
+    border: none;
+}
+QComboBox QAbstractItemView {
+    background-color: #16213e;
+    color: #e0e0e0;
+    selection-background-color: #0f3460;
+}
+
+QScrollBar:vertical {
+    background: #16213e;
+    width: 8px;
+}
+QScrollBar::handle:vertical {
+    background: #0f3460;
+    border-radius: 4px;
+    min-height: 20px;
+}

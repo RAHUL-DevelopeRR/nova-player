@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Whisper model cache
+.cache/
+*.pt
+*.bin
+
+# Nova Player temp files
+*.dsrt.tmp
+nova_chunk_*.wav
+nova_fullaudio_*/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
